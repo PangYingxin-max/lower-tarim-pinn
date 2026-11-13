@@ -1,0 +1,10 @@
+Full ODE continuation verification
+Parameter source: results_real/predictions_and_params.npz
+Branches continued: 2
+Continuation step: 0.01
+Requested mu range: [-0.15, 1.35]
+Continuation seed mu: 2.7755575615628914e-17
+Fold candidates passing nondegeneracy screen: 0
+Hopf candidates passing RH/crossing screen: 0
+PINN restart uncertainty: not evaluated; the supplied cache contains one parameter dictionary.
+Interpretation: absence of candidates is evidence only for this parameter set and scanned range.

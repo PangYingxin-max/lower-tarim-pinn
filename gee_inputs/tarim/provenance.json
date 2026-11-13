@@ -1,0 +1,10 @@
+{
+  "basin": "lower Tarim River",
+  "ndvi": "MODIS/061/MOD13Q1 growing-season mean over the 1 km channel corridor (GEE script 数据2.txt, v6)",
+  "lst": "MODIS/061/MOD11A2 LST_Day_1km growing-season mean over the same corridor",
+  "tvdi": "derived from the NDVI-LST feature space (Sandholt et al. 2002), edges fitted on the pooled fitting-box and corridor points; TVDI.xlsx holds the regional mean (TVDI_region)",
+  "tvdi_corridor": "corridor mean TVDI; diagnostic only, saturates near 0.95 because MOD11A2 LST (1 km) is coarser than the 1 km corridor",
+  "water": "Lower Tarim River_R_2000-2023.xlsx (basin authority and published assessments)",
+  "season": "April-October",
+  "corridor": "1 km buffer on both sides of the mapped channel, Daxihaizi Reservoir to Taitema Lake"
+}

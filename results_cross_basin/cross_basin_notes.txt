@@ -1,0 +1,23 @@
+Cross-basin comparison notes
+
+Common protocol: MODIS/061/MOD13Q1 NDVI and MODIS/061/MOD11A2 LST_Day_1km,
+annual growing-season means, quality-filtered, exported through Google Earth Engine.
+
+Differences that must be stated in the manuscript:
+  - season: lower Tarim April-October, Ejina May-September;
+  - spatial unit: lower Tarim = 1 km buffer on both sides of the mapped channel,
+    Ejina = Heihe River Basin 1:100000 vegetation map (2015) v3.0 clipped to the oasis;
+  - Ejina TVDI is available from the point-based NDVI-LST feature space.
+  - Ejina TVDI uses independent region and oasis point samples; annual mean TVDI is 0.696 (range 0.663-0.736).
+    Edge-fit medians: dry-edge R2=0.313, wet-edge R2=0.462; usable NDVI bins=7-11.
+    Low dry-edge R2 (<0.10) occurs in 2000, 2003, 2013, 2022; report this annual uncertainty rather than treating TVDI as an in-situ measurement.
+  - Ejina water forcing uses Zhengyixia release when observed. 11/24 water-years are present; missing years stay blank.
+  - the Heihe water-year label is the start year (for example, 2000 = 2000-2001).
+
+Data citation for the Ejina ROI:
+  Zheng, Y., Zhou, J. (2019). 1:100000 vegetation map of Heihe River Basin (2015)
+  (version 3.0). National Tibetan Plateau / Third Pole Environment Data Center.
+  https://doi.org/10.11888/Ecolo.tpdc.270869 (CSTR 18406.11.Ecolo.tpdc.270869)
+  Zhang, X., Zhou, J., Cai, W., Gao, N., Zheng, Y. (2018). Vegetation mapping of the
+  Heihe River Basin at 1:100000 based on 3S technology. Journal of Northwest Normal
+  University (Natural Science), (2), 95-101.

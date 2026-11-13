@@ -1,0 +1,42 @@
+{
+  "source": "Sentinel-2/Landsat fixed 10 m window",
+  "window": "W2",
+  "epsg": "read from GeoTIFF transform (GEE export uses EPSG:32645)",
+  "product": "S2_SR_HARMONIZED 2017-2023; S2 TOA 2015-2016",
+  "files": {
+    "2016": "C:\\Users\\ACER\\Desktop\\PINN\\pinn数据\\W2_2016(1).tif",
+    "2017": "C:\\Users\\ACER\\Desktop\\PINN\\pinn数据\\W2_2017(1).tif",
+    "2018": "C:\\Users\\ACER\\Desktop\\PINN\\pinn数据\\W2_2018(1).tif",
+    "2019": "C:\\Users\\ACER\\Desktop\\PINN\\pinn数据\\W2_2019(1).tif",
+    "2020": "C:\\Users\\ACER\\Desktop\\PINN\\pinn数据\\W2_2020(1).tif",
+    "2021": "C:\\Users\\ACER\\Desktop\\PINN\\pinn数据\\W2_2021(1).tif",
+    "2022": "C:\\Users\\ACER\\Desktop\\PINN\\pinn数据\\W2_2022(1).tif",
+    "2023": "C:\\Users\\ACER\\Desktop\\PINN\\pinn数据\\W2_2023(1).tif"
+  },
+  "skipped_years": [
+    {
+      "year": 2015,
+      "file": "W2_2015(1).tif",
+      "reason": "one or more gridded bands are empty"
+    }
+  ],
+  "P": "NDVI, normalized with calibration-period 3rd/97th percentiles",
+  "T": "TVDI from calibration-period NDVI-LST edges",
+  "R": "NDWI, normalized with calibration-period 3rd/97th percentiles",
+  "F": "annual downstream water record x exp(-distance_to_water/500 m)",
+  "tvdi_edges": {
+    "a_dry": -6.549615119155889,
+    "b_dry": 52.71678833791209,
+    "a_wet": -16.524034872965803,
+    "b_wet": 44.514614058801435
+  },
+  "ndvi_range": [
+    0.029373754188418387,
+    0.23040746271610266
+  ],
+  "ndwi_range": [
+    -0.28934776186943056,
+    -0.09667407363653183
+  ],
+  "note": "LST is 100 m native and resampled to the 10 m grid; P is the only 10 m-native optical state."
+}

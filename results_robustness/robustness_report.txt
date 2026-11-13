@@ -1,0 +1,12 @@
+Full-ODE critical-point robustness under parameter perturbation
+Parameter source: results_real/predictions_and_params.npz
+Observed normalized water-input range: [0.000, 1.244]
+Scanned interval: [-0.050, 1.294] with 801 points
+Nominal set: folds=none, hopf=none, min|det J|=3.485e-02
+
+ scale  draws  fold_rate  hopf_rate  any_fold  any_hopf  min_abs_det
+   0.1    200      0.000        0.0     0.000       0.0 1.941626e-02
+   0.2    200      0.005        0.0     0.005       0.0 2.346090e-06
+   0.3    200      0.030        0.0     0.035       0.0 5.445303e-07
+
+Interpretation: a rate of 0 means no perturbed parameter set produced a sign change of det J (fold screen) or of the Routh-Hurwitz indicator with A1>0, A3>0 (Hopf screen) inside the observed water-input interval.

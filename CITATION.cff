@@ -1,0 +1,26 @@
+cff-version: 1.2.0
+message: "If you use this repository, please cite the associated manuscript and this software record."
+type: software
+title: "Physics-informed ecohydrological modelling of the lower Tarim River"
+version: "1.0.0"
+date-released: "2026-11-13"
+authors:
+  - family-names: "Pang"
+    given-names: "Yingxin"
+    affiliation: "School of Mathematics and Statistics, North China University of Water Resources and Electric Power, Zhengzhou 450046, China"
+  - family-names: "Zhang"
+    given-names: "Jinhua"
+    affiliation: "School of Electrical Engineering, North China University of Water Resources and Electric Power, Zhengzhou 450046, China"
+  - family-names: "Shen"
+    given-names: "Jianwei"
+    affiliation: "School of Mathematics and Statistics, North China University of Water Resources and Electric Power, Zhengzhou 450046, China"
+license: MIT
+keywords:
+  - physics-informed neural network
+  - ecohydrology
+  - Tarim River
+  - ecological water conveyance
+  - bifurcation
+  - pattern formation
+  - reproducibility
+abstract: "Code, processed data, provenance, result tables, and figures supporting a physics-informed ecohydrological parameter-inversion and dynamical-exploration study of the lower Tarim River."

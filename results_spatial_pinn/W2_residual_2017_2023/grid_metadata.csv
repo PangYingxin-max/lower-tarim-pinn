@@ -1,0 +1,2 @@
+﻿window,epsg,dx_m,dy_m,x0,y0,width,height,crs_transform
+W2,read from GeoTIFF transform (GEE export uses EPSG:32645),10.0,10.0,602590.0,4466170.0,129,129,"10,0,602590,0,-10,4466170"

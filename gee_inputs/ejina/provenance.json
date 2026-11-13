@@ -1,0 +1,10 @@
+{
+  "basin": "lower Heihe / Ejina Oasis",
+  "roi": "Heihe River Basin 1:100000 vegetation map (2015) v3.0, TPDC, doi:10.11888/Ecolo.tpdc.270869",
+  "ndvi": "MODIS/061/MOD13Q1 growing-season mean (May-September), GEE export Ejina_NDVI_2000_2023_Success",
+  "lst": "MODIS/061/MOD11A2 LST_Day_1km growing-season mean (May-September), GEE export Ejina_LST_2000_2023",
+  "season": "May-September (differs from the Tarim window of April-October)",
+  "tvdi": "derived from region-point dry/wet edges and oasis-point evaluation (Sandholt et al. 2002)",
+  "water": "Zhengyixia hydrological-station release where available; East Juyan inflow retained as a secondary column; missing water-years are not interpolated",
+  "water_year_convention": "Year is the start year of the 11 November-10 November water-scheduling year (for example, 2000 means 2000-2001)"
+}
