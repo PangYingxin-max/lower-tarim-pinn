@@ -25,7 +25,7 @@
 2. Upload the contents of this github_release directory, not the whole working directory.
 3. Check that no file is larger than 50 MB and that the repository is below 100 MB.
 4. Replace placeholder repository links after the real URL is known.
-5. Create a release tag, for example v1.0.0.
+5. Create a release tag, for example v1.0.1.
 6. Connect the repository to Zenodo and archive the tagged release.
 7. Put the Zenodo DOI, not the moving main branch, in the manuscript Data Availability Statement when possible.
 8. Put the same URL/DOI in the supplementary Code Availability section.

@@ -9,5 +9,5 @@
   "license": "MIT",
   "upload_type": "software",
   "keywords": ["physics-informed neural network", "ecohydrology", "Tarim River", "bifurcation", "pattern formation"],
-  "version": "1.0.0"
+  "version": "1.0.1"
 }

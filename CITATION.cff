@@ -2,8 +2,9 @@ cff-version: 1.2.0
 message: "If you use this repository, please cite the associated manuscript and this software record."
 type: software
 title: "Physics-informed ecohydrological modelling of the lower Tarim River"
-version: "1.0.0"
-date-released: "2026-11-13"
+version: "1.0.1"
+date-released: "2026-11-14"
+repository-code: "https://github.com/PangYingxin-max/lower-tarim-pinn"
 authors:
   - family-names: "Pang"
     given-names: "Yingxin"
