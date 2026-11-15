@@ -3,7 +3,11 @@
 This repository accompanies the manuscript **"A physics-informed framework for ecohydrological parameter inversion and dynamical exploration in the lower Tarim River"** submitted to *Ecological Informatics*.
 
 It contains the processed data, Google Earth Engine export scripts, PINN and dynamical-systems code, result tables, and manuscript figures needed to inspect and reproduce the analyses. Raw third-party satellite scenes and licensed source documents are not redistributed; their stable download locations and access conditions are listed in docs/DATA_SOURCES.md and data_sources.csv.
+## Archived release
 
+Version [v1.0.2](https://github.com/PangYingxin-max/lower-tarim-pinn/releases/tag/v1.0.2) is archived on Zenodo: [10.5281/zenodo.24241948](https://doi.org/10.5281/zenodo.24241948)(Concept DOI 10.5281/zenodo.24241947).
+
+The source code is licensed under the MIT License. Author-generated and derived datasets, tables, and figures are licensed under CC BY 4.0, except where otherwise stated. Third-party materials remain subject to their original licenses. See [LICENSE](LICENSE) and [DATA_LICENSE.md](DATA_LICENSE.md).
 ## Scientific scope
 
 The manuscript makes four distinct claims, and they should not be conflated:
