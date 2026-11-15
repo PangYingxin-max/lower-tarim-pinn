@@ -6,7 +6,6 @@
     {"name": "Zhang, Jinhua", "affiliation": "North China University of Water Resources and Electric Power"},
     {"name": "Shen, Jianwei", "affiliation": "North China University of Water Resources and Electric Power"}
   ],
-  "license": "MIT",
   "upload_type": "software",
   "keywords": ["physics-informed neural network", "ecohydrology", "Tarim River", "bifurcation", "pattern formation"],
   "version": "1.0.1"
